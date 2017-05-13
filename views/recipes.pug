@@ -1,0 +1,6 @@
+h1 All Recipes
+
+ul
+    each recipe in recipes
+        li
+            a(href='/recipes/'+recipe.url) #{recipe.name}

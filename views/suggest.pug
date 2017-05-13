@@ -1,0 +1,14 @@
+form(action='/recipes/suggest' method='post')
+    label(for='name') Recipe Title
+    input(type='text' name='name' value='' id='name')
+    br
+    label(for='ingredients') Ingredients
+    textarea(name='ingredients' rows=8 cols=40 id='ingredients')
+    br
+    label(for='directions') Directions
+    textarea(name='directions' rows=8 cols=40 id='directions')
+    br
+    p
+        input(type='submit' value='Submit')
+
+    
